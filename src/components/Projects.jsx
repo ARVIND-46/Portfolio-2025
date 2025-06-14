@@ -1,0 +1,62 @@
+import React from 'react';
+import '../components/styles.css'
+
+const Projects = () => {
+  const projectData = [
+    {
+      title: "Portfolio Website",
+      description: "A personal portfolio showcasing my skills and projects. Built using React and styled with custom CSS.",
+      link: "https://github.com/ARVIND-46/portfolio-R-.git"
+    },
+    {
+      title: "Task Tracker App",
+      description: "A task management app built with Django and SQLite. Users can track their daily to-dos.",
+      link: "https://github.com/ARVIND-46/TaskTrackerPyAssignment.git"
+    },
+    {
+      title: "LAMP",
+      description: "A full-stack web app for learning platform",
+      link: "https://github.com/ARVIND-46/TaskTrackerPyAssignment.git"
+    },
+    {
+      title: "Landing Page",
+      description: "This is a modern and responsive landing page designed for a fitness center or gym. Built with a focus on user experience and visual appeal. It includes clear bold visuals, and structured content to drive user engagement and conversions.",
+      link: "https://codsoft-landingpage-ochre.vercel.app/"
+    },
+    {
+      title: "Quiz App",
+      description: "A simple quiz application built with React. Users can take quizzes and see their scores.",
+      link: "https://codtech-task1-quiz-application.vercel.app/"
+    },
+    {
+      title: "E-commerce Website",
+      description: "A full-stack e-commerce application built with Django and React. Users can browse products, add to cart, and checkout.",
+      link: "https://github.com/ARVIND-46/CODEC_EcommerceApplication.git"
+    }
+
+  ];
+
+  return (
+    <div id="Project" className="projects-section">
+      <h2 className="section-title">Projects</h2>
+      <div className="projects-grid">
+        {projectData.map((project, index) => (
+          <div className="project-card" key={index}>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="view-btn"
+            >
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
