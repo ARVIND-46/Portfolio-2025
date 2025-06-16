@@ -14,9 +14,9 @@ const Projects = () => {
       link: "https://github.com/ARVIND-46/TaskTrackerPyAssignment.git"
     },
     {
-      title: "LAMP",
-      description: "A full-stack web app for learning platform",
-      link: "https://github.com/ARVIND-46/TaskTrackerPyAssignment.git"
+      title: "Skill Box",
+      description: "A front-end web app for learning platform",
+      link: "https://cod-tech-task2-e-learning.vercel.app/"
     },
     {
       title: "Landing Page",
