@@ -32,6 +32,12 @@ const Projects = () => {
       title: "E-commerce Website",
       description: "A full-stack e-commerce application built with Django and React. Users can browse products, add to cart, and checkout.",
       link: "https://github.com/ARVIND-46/CODEC_EcommerceApplication.git"
+    },
+    {
+      title:"Chat Application",
+      description:"A real-time chat application UI built with React and tailwind css.(frontend only) and a simple chat bot username - admin && pwd - admin@123 .",
+      link:"https://codtech-task3-chat-application.vercel.app/",
+
     }
 
   ];
