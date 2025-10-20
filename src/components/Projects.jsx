@@ -38,8 +38,12 @@ const Projects = () => {
       description:"A real-time chat application UI built with React and tailwind css.(frontend only) and a simple chat bot username - admin && pwd - admin@123 .",
       link:"https://codtech-task3-chat-application.vercel.app/",
 
+    },
+    {
+     title: "Ship Booking App",
+     description: "A mobile application built with React Native and Firebase for booking ship tickets. It includes authentication, booking form, e-ticket generation with QR code, and Firestore integration for real-time data storage.",
+     link: "https://drive.google.com/file/d/1auZlyzlOJ6dXvRH2ImM4UfC845R5K6ly/view?usp=drive_link", 
     }
-
   ];
 
   return (
