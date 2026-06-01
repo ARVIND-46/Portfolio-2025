@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Achievements from './components/Achivements';
+import Achievements from './components/Achievements';
 import Projects from './components/Projects';
 import Works from './components/Works';
 function App() {
